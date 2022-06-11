@@ -3,7 +3,7 @@
 
 ![alt neo4j simple](https://raw.githubusercontent.com/jimmy18dev/neo4j-find-mutual-friends/master/screenshot/neo4j-simple.png)
 
-## รัน Neo4j เพื่อทดลองใช้งานไปพร้อมกัน
+## รัน Neo4j ด้วย Docker compose
 *จำเป็นต้องติดตั้ง **Git** และ **Docker Engine**
 
 ### Cloning a Repository.
@@ -18,7 +18,7 @@ cd neo4j-find-mutual-friends
 
 ### Build and Start with docker-compose
 ```
-docker-compose up -d --build && docker-compose ps
+docker compose up -d --build && docker compose ps
 ```
 
 #### Web Application
