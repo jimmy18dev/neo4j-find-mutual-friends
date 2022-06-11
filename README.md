@@ -1,2 +1,27 @@
-# neo4j-find-mutual-friends
-Find out the people who are friends with both Tommy and Meena. This is also known as the mutual friend problem.
+# Neo4j ช่วยแก้ปัญหาความสัมพันธ์อันซับซ้อน
+ฐานข้อมูลแบบ Graph Database (GDBMS) ที่พัฒนาด้วย JAVA และใช้ภาษา CQL (Cypher Query Language Neo4j) ในการ Query ข้อมูล ช่วยให้การค้นหาข้อมูลจากความสัมพันธ์อ่านง่ายขึ้น
+
+อ่านบทความเต็ม: [https://link.medium.com/acGdKvuRBqb](https://link.medium.com/acGdKvuRBqb) 
+
+## รัน Neo4j เพื่อทดลองใช้งานไปพร้อมกัน
+จำเป็นต้องติดตั้ง **Git** และ **Docker Engine**
+
+### Cloning a Repository.
+```
+git clone https://github.com/jimmy18dev/neo4j-find-mutual-friends.git
+```
+
+### Change the current directory to Project
+```
+cd neo4j-find-mutual-friends
+```
+
+### Build and Start with docker-compose
+```
+docker-compose up -d --build && docker-compose ps
+```
+
+#### Web Application
+```
+http://127.0.0.1:7474/browser/
+```
